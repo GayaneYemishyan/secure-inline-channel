@@ -1,2 +1,29 @@
-psk.key
-secure-channel
+# build output
+/build/
+/secure-channel
+*.o
+*.d
+*.a
+
+# keys and secrets
+*.key
+*.pem
+*.psk
+psk*
+
+# captures and logs
+*.pcap
+*.pcapng
+*.log
+
+# debugging
+core
+core.*
+vgcore.*
+
+# editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
